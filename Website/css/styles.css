@@ -1,3 +1,9 @@
+:root{
+    --background-base: #8CE2F1;
+    --accent-pink: #F18CE2;
+    --yellow: #E2F18C;
+    --text-base: #0e1216;
+}
 ul{
     list-style-type: none;
     padding: 0;
