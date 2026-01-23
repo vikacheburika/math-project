@@ -40,7 +40,7 @@ nav *{
     position: relative;
     z-index: 1;
 }
-ul{
+header nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -67,7 +67,7 @@ header:hover nav{
 header:hover nav *{
     opacity: 100;
 }
-li{
+header nav ul li{
     margin-bottom: 1vw;
     font-size: 0.8vw;
     font-weight: 600;
@@ -194,6 +194,7 @@ header nav ul a {
     position: relative;
     z-index: 1;
     height: 95%;
+    margin-left: 1vw;
 }
 article {
     overflow: scroll;
@@ -253,4 +254,22 @@ article {
     display: block;
     align-self: flex-start;
 }
-
+.theory {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 40%;
+    top: 10vh;
+}
+.two-elements {
+    display: flex;
+    flex-direction: row;
+}
+.tiesines-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul div li {
+    margin-bottom: 10px;
+}
