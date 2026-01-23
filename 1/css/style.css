@@ -260,6 +260,7 @@ article {
     box-sizing: border-box;
     width: 40%;
     top: 10vh;
+    font-size: 1.3em;
 }
 .two-elements {
     display: flex;
