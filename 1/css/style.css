@@ -205,7 +205,7 @@ article {
   display: none;
 }
 .youtube {
-    height: 28vh;
+    height: 30vh;
     width: 26vw;
     top: 54vh;
 }
@@ -232,7 +232,7 @@ article {
 }
 .video-material {
     position: relative;
-    height: 29vh;
+    height: 31vh;
     box-sizing: border-box;
     width: 80vw;
     top: 6vh;
