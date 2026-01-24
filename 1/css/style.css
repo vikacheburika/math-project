@@ -237,9 +237,7 @@ article {
     width: 80vw;
     top: 6vh;
 }
-.graphic img{
-    width: 50vw;
-}
+
 .graphic{
     width: 100%;
     text-align: right;
@@ -258,13 +256,13 @@ article {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    width: 40%;
-    top: 10vh;
+    width: 60%;
     font-size: 1.3em;
 }
 .two-elements {
     display: flex;
     flex-direction: row;
+    column-gap: 5vw
 }
 .tiesines-ul {
     display: flex;
@@ -273,4 +271,15 @@ article {
 }
 ul div li {
     margin-bottom: 10px;
+}
+.graphic {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    width: 40%;
+
+}
+.img-graphic {
+    box-sizing: border-box;
+    width: 24vw;
 }
