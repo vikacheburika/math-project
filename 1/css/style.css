@@ -283,3 +283,15 @@ ul div li {
     box-sizing: border-box;
     width: 24vw;
 }
+.trigonometr{
+    height: fit-content;
+}
+.trigonometr div *{
+    display: none;
+    opacity: 0;
+    transition: opacity 3s;
+}
+.trigonometr:hover div *{
+    opacity: 100;
+    display: block;
+}
