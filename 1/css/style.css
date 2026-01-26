@@ -83,6 +83,7 @@ main{
     z-index: 2;
     background-color: var(--background);
 }
+
 main h1{
     text-align: center;
 }
@@ -120,6 +121,7 @@ footer > div{
     margin: 15px;
     transition: transform 0.7s;
     position: relative;
+    border: 1px solid black;
 }
 .scroll{
     background: transparent;
@@ -267,7 +269,7 @@ article {
 .tiesines-ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 ul div li {
     margin-bottom: 10px;
@@ -286,6 +288,10 @@ ul div li {
 .trigonometr{
     height: fit-content;
 }
+.trigonometr div{
+    margin: 0.5vw;
+    box-sizing: border-box;
+}
 .trigonometr div *{
     display: none;
     opacity: 0;
@@ -294,4 +300,35 @@ ul div li {
 .trigonometr:hover div *{
     opacity: 100;
     display: block;
+}
+main > a{
+    border: 0;
+    width: 15vw;
+    height: 2vh;
+    border-radius: 50px;
+    background-color: var(--background);
+    box-shadow: -1px 2px 20px 4px rgba(120,216,255,0.75);
+    border: 1px solid black;
+    color: var(--text);
+    font-size: 20px;
+    transition: background-color 1s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > a:hover{
+    background-color: #182c5c;
+}
+main div > a{
+    padding: 0;
+}
+.rodikline-grafikas {
+    width: 17vw;
+}
+.saknies {
+    font-size: 1.5em;
+}
+.remake {
+    width: 20vw;
 }
