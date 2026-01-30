@@ -7,7 +7,7 @@
 }
 body{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     /* background-image: linear-gradient(to bottom, var(--background-base), rgb(29, 0, 0)); */
     background-color: var(--background);
@@ -113,7 +113,6 @@ footer > div{
     background-color: var(--background);
     display: inline-block;
     /* border: 1px solid black; */
-    padding: 1.6vh;
     box-shadow: -2px 2px 36px 4px rgba(120,216,255,0.75);
     border-radius: 7px;
     height: 15vh;
@@ -124,7 +123,7 @@ footer > div{
     border: 1px solid black;
     text-align: center;
     box-sizing: border-box;
-    
+
 }
 .scroll{
     background: transparent;
@@ -163,13 +162,13 @@ main > h2,main > h3, article h2{
     font-size: 2vw;
 }
 .main-container {
-    display: flex;
-    flex-direction: row;
     margin-left: 100px;
     text-align: left;
 }   
 .main-container article {
     align-self: flex-end;
+    display: inline-block;
+    vertical-align: top;
     width: 40vw;
     margin: 0 15px;
     font-size: 2vh;
@@ -325,7 +324,8 @@ main > a:hover{
 main div > a{
     width: 100%;
     height: 100%;
-    padding: 0;
+    padding: 1.6vh;
+    box-sizing: border-box;
 }
 .rodikline-grafikas {
     width: 17vw;
@@ -335,4 +335,10 @@ main div > a{
 }
 .remake {
     width: 20vw;
+}
+.nuoroda {
+    text-decoration: underline;
+}
+.nuoroda:hover {
+    color: var(--accent);
 }
