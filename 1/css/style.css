@@ -86,6 +86,7 @@ main{
 
 main h1{
     text-align: center;
+    margin-bottom: 0.1%;
 }
 main footer{
     justify-content: center;
@@ -342,4 +343,5 @@ main div > a{
 .nuoroda:hover {
     color: var(--accent);
 }
+
 
