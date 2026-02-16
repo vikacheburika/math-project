@@ -193,7 +193,7 @@ header nav ul a {
     box-sizing: border-box;
 }
 .main-iframe{
-    width: 100vw;
+    width: 100%;
     position: relative;
     z-index: 1;
     height: 95%;
@@ -342,3 +342,4 @@ main div > a{
 .nuoroda:hover {
     color: var(--accent);
 }
+
